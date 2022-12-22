@@ -1,0 +1,56 @@
+<!--Textarea/Radio/Checkbox
+●	Create a page that simulates a school quiz, containing multiple questions:
+●	The first question should contain multiple options out of which the student can select only one
+●	The second quiz question has multiple options out of which the user can select several
+●	The third question should require from user to insert some long text
+-->
+<!DOCTYPE html> 
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>forms2</title>
+</head>  
+<body>  
+    <h1>Kviz</h1>
+    <form>
+        <label>Koja se reka ne nalazi u Srbiji:</label>
+        <br>
+        Odgovori:
+        <br>
+        <input type="radio" name="reke" value="Sava">
+        <label>Sava</label>
+        <br>
+        <input type="radio" name="reke" value="Dunav">
+        <label>Dunav</label>
+        <br>
+        <input type="radio" name="reke" value="Dunav">
+        <label>Eufrat</label>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <label>Koje se planine nalaze Srbiji:</label>
+        <br>
+        <input type="checkbox" name="planine" value="Tara">
+            <label>Tara</label>
+            <br>
+        <input type="checkbox" name="planine" value="Zlatibor">
+            <label>Zlatibor</label>
+            <br>
+        <input type="checkbox" name="planine" value="Himalaji">
+            <label>Himalaji</label>
+            <br>
+        <input type="checkbox" name="planine" value="Ararat">
+            <label>Ararat</label>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <label>Opišite ukratko Vaš omiljeni Nacionalni park u Srbiji</label>
+        <br>
+        <textarea id="12345" name="longText" rows="8" cols="20"></textarea>
+        <br>
+        <button type="submit">POSALJI</button>
+</form>
+</body>
+</html>

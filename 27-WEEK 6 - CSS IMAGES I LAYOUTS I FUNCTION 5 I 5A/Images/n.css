@@ -1,0 +1,92 @@
+img:first-of-type {
+  position: relative;
+  top: 50px;
+  left: 100px;
+  margin-bottom: 50px;
+}
+img:last-of-type {
+  position: absolute;
+  bottom: 0;
+}
+.sec {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.toTop {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+div {
+  width: 200px;
+  height: 200px;
+}
+.first {
+  background: maroon;
+}
+.second {
+  background: orange;
+}
+.third {
+  background: green;
+}
+
+.two {
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+}
+.three {
+  position: relative;
+  left: 200px;
+  bottom: 200px;
+}
+
+section {
+  position: relative;
+}
+.red {
+  position: absolute;
+  right: 0;
+  z-index: 10;
+}
+.orange {
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  z-index: 5;
+}
+.green {
+  position: absolute;
+  right: 200px;
+  top: 200px;
+  z-index: 1;
+}
+
+nav {
+  width: 960px;
+  margin: 0 auto;
+  background: maroon;
+}
+nav:before,
+nav:after {
+  content: "";
+  display: table;
+}
+nav:after {
+  clear: both;
+}
+ul {
+  padding: 10px 20px;
+  margin-top: 0;
+}
+li {
+  float: right;
+  list-style-type: none;
+  padding-left: 20px;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,31 @@
+.div1 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+
+.prvaSlika {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.drugaSlika {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.trecaSlika {
+    position: absolute;
+    bottom: 5px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.a {
+    position: absolute;
+    right: 0px;
+}

@@ -1,0 +1,36 @@
+nav {
+  background-color: rgba(255, 0, 0, 0.775);
+  width: 960px;
+  margin: 0 auto;
+}
+nav:before,
+nav:after {
+  content: "";
+  display: table;
+}
+nav::after {
+  clear: both;
+}
+ul {
+  padding: 20px 10px;
+  margin-top: 0;
+  color: rgb(233, 223, 223);
+}
+li {
+  float: right;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+li a {
+  display: block;
+  float: right;
+  color: rgb(252, 242, 242);
+  text-decoration: none;
+}
+art1 {
+  float: left;
+}
+art2 {
+  float: right;
+}

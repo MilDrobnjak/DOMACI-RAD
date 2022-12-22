@@ -1,0 +1,80 @@
+ul li a {
+  text-decoration: none;
+  background-color: green;
+}
+ul li a :active {
+  background-color: yellow;
+}
+ul li a :visited {
+  background-color: orange;
+}
+
+.important {
+  font-weight: bold;
+}
+
+.paragraph1 {
+  font-size: 16px;
+}
+
+.paragraph2 {
+  font-size: 18px;
+}
+
+.paragraph3 {
+  font-size: 20px;
+}
+
+.paragraph4 {
+  font-size: 22px;
+}
+
+.paragraph1 {
+  background-color: blue;
+}
+
+.paragraph2 {
+  background-color: red;
+}
+
+.paragraph3 {
+  background-color: violet;
+}
+
+.paragraph4 {
+  background-color: pink;
+}
+
+.paragraphWithContentBox {
+  border-style: solid;
+  box-sizing: content-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  width: 276px;
+}
+
+.paragraphWithBorderBox {
+  border-style: solid;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  width: 300px;
+}
+
+table {
+  margin: auto;
+  padding: 0px;
+  width: 1000px;
+  border-collapse: collapse;
+}
+table td {
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+}
+
+/*# sourceMappingURL=Advanced-Exercises.css.map */

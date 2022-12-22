@@ -1,0 +1,29 @@
+.div1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.704);
+    overflow: hidden;
+    /* position: relative; */
+    position: absolute;
+    float: right
+}
+
+.div2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 0, 0.693);
+    overflow: hidden;
+    /* position: relative; */
+    position: absolute;
+
+}
+
+.div3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(9, 9, 106, 0.675);
+    overflow: hidden;
+    /* position: relative; */
+    position: absolute;
+
+}

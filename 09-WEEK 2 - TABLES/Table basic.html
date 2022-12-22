@@ -1,0 +1,75 @@
+<!--Table Basics
+●	Create a table containing phone specification data
+●	Each row should represent a new phone
+●	Content of the first column is the phone name
+●	The second column should contain the phone image (height of 100px)
+●	The third column should contain the amount of ram
+●	The fourth column should contain camera information
+●	The fifth column should contain info about internal memory
+●	Table should have at least three rows!
+●	Add column title for each column using th
+    Merging cells across rows
+    ●	Add a new column to the table
+    ●	Title of the column should be "External antenna"
+    ●	Merge all cells in this column into one cell except the column title
+    ●	Value inside the cell should be something like "NO"
+
+    Merging columns
+    ●	Add a row in the table before the first row
+    ●	The new row should contain one cell stretching across all columns
+    ●	Content of the cell should be something like "Specification"
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid rgb(22, 96, 170);
+}
+</style>
+</head>
+<body>
+<body>
+<h2 style="background-color:rgb(0, 223, 216); text-align: center">Phone specification data style</h2>
+<table style="width:100%">
+    <tr>
+        <th colspan="7">Specification</th>
+    </tr>
+    <tr>
+    <th>phone name</th>
+    <th>phone image</th>
+    <th>price</th>
+    <th>amount of ram</th>
+    <th>internal memory</th>
+    <th>camera information</th>
+    <th>External antenna</th>
+  </tr>
+  <tr>
+    <td style="text-align: center">Samsung Galaxy Tab Active4 Pro</td>
+    <td><img src=https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-active3.jpg style="float:center;width:100px;height:100"></td>
+    <td>120 Euro</td>
+    <td>4GB RAM</td>
+    <td>128GB</td>
+    <td>13 MP</td>
+    <td rowspan="3">NO</td>
+  </tr>
+  <tr>
+    <td style="text-align: center">Nokia X30</td>
+    <td><img src=https://fdn2.gsmarena.com/vv/bigpic/nokia-x30-5g.jpg style="float:center;width:100px;height:100"></td>
+    <td>220 Euro</td>
+    <td>8GB RAM</td>
+    <td>256 GB</td>
+    <td>50 MP</td>
+
+  </tr>
+  <tr>
+    <td style="text-align: center">Huawei nova 10 SE</td>
+    <td><img src=https://fdn2.gsmarena.com/vv/bigpic/huawei-nova10-se.jpg style="float:center;width:100px;height:100"></td>
+    <td>150 Euro</td>
+    <td>8GB RAM</td>
+    <td>256 GB</td>
+    <td>108 MP</td>
+  </tr>
+</table>
+</body>
+</html>

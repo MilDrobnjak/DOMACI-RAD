@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: Cookie;
+    src: url(./Cookie-Regular.ttf);
+
+}
+
+
+.fontSize {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.font1 {
+    font-family: Cookie ;
+    font-size: small;
+    font-style: oblique;
+   }
+
+.font2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.font3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@font-face {
+    font-family: Parisienne;
+    src: url(https://fonts.google.com/specimen/Parisienne);
+}
+
+h1 {
+    font-family: Parisienne;
+} 
+.underLine {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.lowerCase {
+    text-transform: lowercase;
+    text-decoration: line-through;
+}

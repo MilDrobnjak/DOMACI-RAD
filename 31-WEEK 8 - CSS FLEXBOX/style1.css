@@ -1,0 +1,49 @@
+.di {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 50px auto;
+  height: 600px;
+  font-family: Arial;
+  font-size: 100px;
+}
+
+.div1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  width: 33.33%;
+  height: 33.33%;
+  order: 4;
+}
+
+.div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 33.33%;
+  height: 33.33%;
+  order: 3;
+}
+
+.div3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(72, 3, 3);
+  width: 33.33%;
+  height: 33.33%;
+  order: 2;
+}
+
+.div4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rosybrown;
+  width: 66%;
+  height: 100%;
+  order: 1;
+}

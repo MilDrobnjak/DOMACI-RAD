@@ -1,0 +1,123 @@
+<!-- Selectors, Child and Descendant Selectors
+●	Use the previous exercise’s code
+●	Use different selectors to change the background color of elements
+●	You can add classes to HTML elements
+●	Any other change to HTML code is not allowed
+●	A color palette can be found on: https://www.materialpalette.com/
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="UTF-8" />
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel ="stylesheet" href="./styles.css">
+     <title>Document</title>
+   </head>
+   <body>
+     <h1>Forme!</h1>
+ ​
+     <form action="https://www.google.com/search" method="get">
+       <label for="q">Search with Google</label>
+       <input type="search" name="q" id="q" />
+     </form>
+ ​
+     <form action="/forme_novija_verzija.html">
+       <br />
+       <br />
+       <fieldset>
+         <legend>Personal Details</legend>
+         <label for="name">Name</label>
+         <input
+           type="text"
+           name="user-name"
+           id="name"
+           placeholder="Enter your name"
+         />
+         <br />
+         <label for="email">Email</label>
+         <input type="email" name="email" id="email" />
+         <br />
+         <label for="age">Age</label>
+         <input type="number" name="age" value="20" id="age" />
+         <br />
+         <label for="password">Password</label>
+         <input
+           type="password"
+           name="password"
+           id="password"
+           minlength="8"
+           placeholder="Must be at least 8 character long"
+         />
+       </fieldset>
+       <br />
+       <label for="comment"></label>
+       <textarea name="comment" id="comment" minlength="10" rows="10"></textarea>
+       <br />
+ ​
+       <h4 class="pozadinaBoja">Your gender</h4>
+       <input name="gender" type="radio" value="male" id="male" /><label
+         for="male"
+         >Male</label
+       >
+       <input
+         type="radio"
+         name="gender"
+         value="female"
+         id="female"
+         required
+       /><label for="female">Female</label>
+ ​
+       <input
+         type="radio"
+         name="gender"
+         value="undisclosed"
+         id="undisclosed"
+       /><label for="undisclosed">I don't want to say</label>
+       <br />
+ ​
+       <br />
+ ​
+       <h4 class="pozadinaBoja">Favorite Colors</h4>
+       <input type="checkbox" name="favorite-colors" value="blue" id="blue" />
+       <label for="blue">Blue</label>
+       <input type="checkbox" name="favorite-colors" value="red" id="red" />
+       <label for="red">Red</label>
+       <input type="checkbox" name="favorite-colors" value="green" id="green" />
+       <label for="green">Blue</label>
+ ​
+       <br />
+       <br />
+       <h4>Favorite Food</h4>
+       <select name="fav-food" id="fav-food" multiple size="4">
+         <option value="pizza">Pizza</option>
+         <option value="ice-cream">Ice Cream</option>
+         <option value="fries">Fries</option>
+         <option value="milk">Milk</option>
+         <option value="yoghurt">Yoghurt</option>
+       </select>
+ ​
+       <br />
+       <br />
+ ​
+       <label for="user-image">Upload your image</label>
+       <input type="file" name="user-image" id="user-image" accept="image/*" />
+ ​
+       <br />
+       <br />
+       <label for="date">Your birthday</label>
+       <input type="date" name="birthday" max="2022-10-08" />
+       <br />
+       <br />
+ ​
+       <button type="button">Pusti muziku</button>
+ ​
+       <button type="reset">Clear input</button>
+ ​
+       <input
+         type="image"
+         src="https://www.freeiconspng.com/thumbs/submit-button-png/submit-button-png-25.png"
+       />
+     </form>
+   </body>
+ </html>

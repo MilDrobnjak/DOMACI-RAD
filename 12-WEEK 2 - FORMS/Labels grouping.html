@@ -1,0 +1,65 @@
+<!--Labels/Grouping
+●	Creates a form used for catering reservations
+●	The form contains multiple elements split into groups
+●	Each element should have a label assigned to it
+    First group
+    ●	    Name of the group should be "Personal data"
+    ●	    The first field is for the name
+    ●	    The second one is for the email address
+    ●	    The third is for the phone number
+    Second group
+    ●	    Name of the group should be "Location"
+    ●	    It should contain fields for:
+        ○	City
+        ○	Street
+        ○	Street number
+    Third group
+    ●	Name of the group should be "Event info"
+    ●	The first element is dropdown containing the following options:
+        ○	birthday
+        ○	wedding (should be selected by default)
+        ○	company 
+    ●	The second element is for getting number of expected guests and it’s an input type number
+    ●	Placeholder is a number you choose 
+-->
+<!DOCTYPE html> 
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CATERING RESERVATIONS</title>
+</head>  
+<body>  
+     <form>
+        <h4>CATERING RESERVATIONS</h4>
+        <legend>Personal data</legend>
+        <label for="name">Name</label><input type="text" name="user-name" id="name"/>
+        <br>
+        <label for="email">Email</label>
+              <input type="email" name="email" id="email"/>
+              <br>
+              <label for="phone">Phone</label>
+              <input type="phone" name="phone" id="phone"/>
+              <br>
+              <br>
+              <legend>Location</legend>
+              <label for="city">City</label>
+              <input type="text" name="city" id="city"/>
+              <br>
+              <label for="street">Street</label>
+              <input type="street" name="street" id="street" />
+              <br>
+              <label for="street number">Street number</label>
+              <input type="street number" name="street number" id="street number" />
+              <br>
+              <h4>Event info</h4>
+              <select name="event-info" id="event-info" multiple size="3">
+                <option value="wedding">Wedding</option>
+                <option value="birthday">Birthday</option>
+                <option value="company">Company</option>
+              </select>
+              <h4>Number of expected guests</h4>
+              <label for="expected-guests">Expected guests</label>
+              <input type="number" name="expected-guests" value="5" id="expected-guests" />
+    </form>   
+</body>   
+</html>

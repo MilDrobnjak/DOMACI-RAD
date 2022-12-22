@@ -1,0 +1,180 @@
+<!-- Applying CSS (Internal CSS)
+●	Download files from: https://bit.ly/3liwgML
+●	“styles.txt” file contains the style for the page
+●	Copy the styles from the “styles.txt” file to your HTML file
+●	Use the defined CSS classes and apply them to the appropriate element
+●	Don’t write any new CSS
+●	Page can be fully styled using only the provided classes -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background: #e3f2fd;
+  }
+  
+  .container {
+      width: 960px;
+      margin: 0 auto;
+  }
+  
+  h1 {
+      padding: 20px 0;
+      text-align: center;
+      background: #2962ff;
+      color: white;
+  }
+  
+  h2 {
+      margin-bottom: 0px;
+      padding-left: 10px;
+      text-align: left;
+      background: #2979ff;
+      color: white;
+  }
+  
+  img {
+      height: 400px;
+      margin: 40px auto 40px;
+      display: block;
+  }
+  
+  table {
+      width: 100%;
+      color: #333;
+      background: white;
+      border-collapse: collapse;
+  }
+  
+  tr {
+      border-bottom: 1px solid #eee;
+  }
+  
+  td {
+      padding: 5px 0;
+  }
+  
+  td:first-child {
+      width: 300px;
+      padding-left: 10px;
+  }
+  
+  p#footer {
+      margin-top: 100px;
+  }
+  </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Forme!</h1>
+​
+    <form action="https://www.google.com/search" method="get">
+      <label for="q">Search with Google</label>
+      <input type="search" name="q" id="q" />
+    </form>
+​
+    <form action="/forme_novija_verzija.html">
+      <br />
+      <br />
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label for="name">Name</label>
+        <input
+          type="text"
+          name="user-name"
+          id="name"
+          placeholder="Enter your name"
+        />
+        <br />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <br />
+        <label for="age">Age</label>
+        <input type="number" name="age" value="20" id="age" />
+        <br />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          minlength="8"
+          placeholder="Must be at least 8 character long"
+        />
+      </fieldset>
+      <br />
+      <label for="comment"></label>
+      <textarea name="comment" id="comment" minlength="10" rows="10"></textarea>
+      <br />
+​
+      <h4>Your gender</h4>
+      <input name="gender" type="radio" value="male" id="male" /><label
+        for="male"
+        >Male</label
+      >
+      <input
+        type="radio"
+        name="gender"
+        value="female"
+        id="female"
+        required
+      /><label for="female">Female</label>
+​
+      <input
+        type="radio"
+        name="gender"
+        value="undisclosed"
+        id="undisclosed"
+      /><label for="undisclosed">I don't want to say</label>
+      <br />
+​
+      <br />
+​
+      <h4>Favorite Colors</h4>
+      <input type="checkbox" name="favorite-colors" value="blue" id="blue" />
+      <label for="blue">Blue</label>
+      <input type="checkbox" name="favorite-colors" value="red" id="red" />
+      <label for="red">Red</label>
+      <input type="checkbox" name="favorite-colors" value="green" id="green" />
+      <label for="green">Blue</label>
+​
+      <br />
+      <br />
+      <h4>Favorite Food</h4>
+      <select name="fav-food" id="fav-food" multiple size="4">
+        <option value="pizza">Pizza</option>
+        <option value="ice-cream">Ice Cream</option>
+        <option value="fries">Fries</option>
+        <option value="milk">Milk</option>
+        <option value="yoghurt">Yoghurt</option>
+      </select>
+​
+      <br />
+      <br />
+​
+      <label for="user-image">Upload your image</label>
+      <input type="file" name="user-image" id="user-image" accept="image/*" />
+​
+      <br />
+      <br />
+      <label for="date">Your birthday</label>
+      <input type="date" name="birthday" max="2022-10-08" />
+      <br />
+      <br />
+​
+      <button type="button">Pusti muziku</button>
+​
+      <button type="reset">Clear input</button>
+​
+      <input
+        type="image"
+        src="https://www.freeiconspng.com/thumbs/submit-button-png/submit-button-png-25.png"
+      />
+    </form>
+  </body>
+</html>

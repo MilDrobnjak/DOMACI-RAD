@@ -1,0 +1,42 @@
+<!--Reset/Button/Hidden
+●	Create a form that contains multiple elements (text, textarea, radio)
+●	At the end of the form, there are two buttons:
+    ○	The first one is a reset button used for resetting form
+    ○	The second button contains an image and text inside it (it's a submit button)
+-->
+<!DOCTYPE html>
+<html>
+<body>
+<h4>Da li koristite javni prevoz?</h4>
+<form>
+  <input type="radio" name="bus"  value="da" id="da"/><label for="da">Da</label>
+  <input type="radio" name="bus" value="ne" id="ne"/><label for="ne">Ne</label>
+​  <input type="radio" name="bus" value="undisclosed"  id="undisclosed"/><label for ="undisclosed" >Ne zelim da dam odgovor</label>
+<br>
+<br>
+<label for="date">Kako putujete na posao?</label>
+<br>
+<br>
+<select name="putovanje" id="12" multiple size="3">
+        <option value="autobus">autobus</option>
+        <option value="biciklo">biciklo</option>
+        <option value="auto">auto</option>
+        <option value="voz">voz</option>
+        <option value="trotinet">trotinet</option>
+        <option value="peske">peske</option>
+</select>
+<br>
+<br>
+<h4>Opisite koju putanju koristite do posla:</h4>
+​<label for="comment"></label>
+<textarea name="comment" id="comment"></textarea>
+<br>
+<br>
+<button type="reset">Reset</button>
+<br>
+<br>
+<br>
+<input type="image" style= width:100px;height:100px src="Submit-Button-PNG-Image.png"/>
+</form> 
+</body>
+</html>

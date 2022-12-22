@@ -1,0 +1,33 @@
+<!--Dropdown/Multiselect
+●	Create a page that contains three dropdown (selects) in one row
+●	Dropdowns are used by the user to provide the day, month and year of birth
+●	The page also contains multiselect box
+●	Multiselect box contains "categories" out of which the user can select several
+-->
+<!DOCTYPE html> 
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>forms3</title>
+</head>  
+<body>
+    <form action="/action_page.php">
+        <label for="date">Mesec, dan i godina rodjenja</label>
+        <input type="date" name="birthday">
+          <button type="submit"> POSALJI</button>
+          <br>
+        <br><br>
+        <label for="favorite-country">What country do you like?</label>
+        <input type="checkbox" name="favorite-country" value="usa" id="usa" />
+        <label for="usa">USA</label>
+        <input type="checkbox" name="favorite-country" value="russia" id="russia" />
+        <label for="russia">Russia</label>
+        <input type="checkbox" name="favorite-country" value="india" id="india" />
+        <label for="india">India</label>
+      <br>
+      <br>
+      <button type="submit">POSALJI</button>
+    </form>   
+</body>
+</html>
+

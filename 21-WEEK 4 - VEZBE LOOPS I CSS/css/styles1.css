@@ -1,0 +1,34 @@
+
+.textColor {
+    color: rgb(1, 13, 13);
+    background-color: blanchedalmond;
+    opacity: 50%;
+}
+
+.textColor1 {
+    color: #6200d1; 
+    background-color: rgba (131, 112, 131); 
+}
+.textColor2 {
+    color: #090e0f; 
+    background-color: lightgrey;
+}
+
+table, th, td {
+  border:1px solid rgb(134, 13, 13);
+}
+.columnColor1 {
+    background-color: AliceBlue;
+}
+.columnColor2 {
+    background-color: hotpink;
+}
+.columnColor3 {
+    background-color: dimgrey;
+}
+.columnColor4 {
+    background-color: mediumpurple;
+}
+.columnColor5 {
+    background-color: skyblue;
+}

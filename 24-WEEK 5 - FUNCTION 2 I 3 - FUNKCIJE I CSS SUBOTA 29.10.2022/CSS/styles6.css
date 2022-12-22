@@ -1,0 +1,19 @@
+.class1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.class2 {
+    background-color: red;
+}
+
+tr:hover td {
+    background-color: yellow;
+}
+
+.backCol {
+    background-color: gray;
+}

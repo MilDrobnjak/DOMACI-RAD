@@ -1,0 +1,30 @@
+.prvi {
+    letter-spacing: 5px;
+    text-align: left;
+}
+.drugi {
+    line-height: 200%;
+    text-align: right;
+}
+.treci {
+    text-align: center;
+}
+
+ul {
+    background-color: aquamarine;
+}
+a {
+    text-shadow: 2px 2px 2px black; 
+}
+a:link {
+    color: blueviolet;
+}
+a:visited {
+    color: crimson;
+}
+a:hover {
+    color: darkgreen;
+}
+a:active {
+    color: peachpuff;
+}

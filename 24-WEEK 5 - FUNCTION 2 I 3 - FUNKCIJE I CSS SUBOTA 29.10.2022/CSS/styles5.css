@@ -1,0 +1,30 @@
+.unorderedFirst {
+    list-style-type: circle;
+}
+
+.unorderedSecond {
+    list-style-type: square;
+}
+
+.orderedFirst {
+    list-style-type: upper-alpha;
+}
+
+
+.orderedSecond {
+    list-style-type: upper-roman;
+}
+
+
+
+ul#image-marker {
+    list-style-image: url(https://www.w3schools.com/cssref/sqpurple.gif);
+    width: 200px;
+}
+
+ul#image-marker2 {
+    list-style-image: url(https://www.w3schools.com/cssref/sqpurple.gif);
+    width: 200px;
+    list-style-position: inside;
+
+}

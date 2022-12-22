@@ -1,0 +1,21 @@
+/* .background {
+  float: left;
+  background-image: url(dave-hoefler-m5oOq4iyaeQ-unsplash.jpg);
+  background-repeat: repeat;
+  height: 200px;
+} */
+p:first-child > img {
+  height: 200px;
+  float: right;
+}
+
+p:second child > img {
+  width: 200px;
+  float: none;
+}
+
+p:last-child > img {
+  width: 200px;
+  height: 200px;
+  float: left;
+}

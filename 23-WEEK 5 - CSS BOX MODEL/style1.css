@@ -1,0 +1,14 @@
+.first {
+    background-color: yellow;
+    height: 500px;
+    width: 400px;
+    max-width: 300px;
+    overflow: hidden;
+}
+
+.second {
+    background-color: red;
+    height: 300;
+    width: 600px;
+    max-height: 200px;
+}

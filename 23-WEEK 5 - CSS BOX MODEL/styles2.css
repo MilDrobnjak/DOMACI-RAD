@@ -1,0 +1,18 @@
+p {
+    background-color: yellow;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-style: dashed;
+    border-color: red;
+}
+
+.second {
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-style: solid;
+    border-color: green;
+}

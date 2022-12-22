@@ -1,0 +1,38 @@
+<!--File input/Submit 
+●	Create a form used for submitting "Then VS Now" dieting/workout images and a description
+●	The form should contain two file input fields
+●	Both of the fields are file inputs
+    o	They are used by the user for uploading the pictures of them and showing what they looked like before they
+        started working out, and how they look now
+●	The page has to have an area where the user can put a picture description
+●	At the end of the form, there should be a submit button with text "Send" that is used to submit the form
+●	The form is submitted on page "handle-upload.html" and the user is redirected to it upon pressing the button
+●	This page should contain just a "Form submitted successfully"! message
+-->
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Then VS Now dieting/workout images and a description</h1>
+<h3>what they looked like before they started working out</h3>
+<form action= "File input submit handle-upload.html" method="post">
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile" accept="image/png, image/jpeg"><br><br>
+  
+</fieldset>
+<br />
+<label for="comment"></label>
+<textarea name="comment" id="comment"></textarea>
+<br>
+<h3>how they look now</h3>
+<br>
+  <label for="myfile">Select files:</label>
+  <input type="file" id="myfile" name="myfile" accept="image/png, image/jpeg"><br><br>
+</fieldset>
+<br>
+<label for="comment"></label>
+<textarea name="comment" id="comment"></textarea>
+<br>
+<a href='File input submit handle-upload.html'><button type="submit">POSALJI</button></a>
+</form>
+</body>
+</html>

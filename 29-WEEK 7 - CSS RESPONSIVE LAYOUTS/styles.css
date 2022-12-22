@@ -1,0 +1,52 @@
+#firstDiv {
+  display: flex;
+  width: 90%;
+  margin-left: 10%;
+}
+
+.div1 {
+  display: flex;
+  width: 90%;
+  margin-left: 10%;
+}
+
+nav {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 300px;
+}
+main {
+  float: right;
+  width: 60%;
+  padding: 10px;
+  height: 300px;
+  margin-right: 340px;
+}
+.vertical {
+  border-left: 2px solid black;
+  height: 350px;
+  position: absolute;
+  left: 50%;
+}
+
+.size {
+  font-size: 12px;
+  margin-right: 200px;
+}
+.size1 {
+  font-size: 12px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  justify-content: left;
+}
+body {
+  font-family: Calibri;
+  margin-top: 40px;
+
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
