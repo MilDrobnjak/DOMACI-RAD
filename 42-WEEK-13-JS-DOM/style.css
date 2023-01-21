@@ -1,0 +1,15 @@
+.active {
+  background-color: #3148dd;
+}
+
+.pink {
+  background-color: #ffc0cb;
+  text-transform: uppercase;
+}
+
+.yellow {
+  background-color: yellow;
+}
+.error {
+  border: 2px solid rgb(202, 19, 19);
+}

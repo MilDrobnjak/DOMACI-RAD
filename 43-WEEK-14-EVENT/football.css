@@ -1,0 +1,36 @@
+* {
+  margin: auto;
+}
+body {
+  background-color: cadetblue;
+}
+.field {
+  margin-top: 200px !important;
+  margin: auto;
+  margin: auto;
+  width: 800px;
+  height: 501px;
+  background-image: url(./Field.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+button {
+  position: relative;
+  float: right;
+  top: 92%;
+  padding: 5px;
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+.player > img {
+  height: 70px;
+}
+.player {
+  position: relative;
+}
+/*.player-inactive{
+  display: none;
+}*/
