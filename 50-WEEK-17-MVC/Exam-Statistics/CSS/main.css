@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+header {
+  height: 400px;
+  background-image: url("https://images-cdn.reedsy.com/discovery/post/109/featured_image/medium_aa7b8fcc4ee3a86626aca3157bbd8d697c38429a.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+  width: fit-content;
+  margin: 0 auto;
+  padding-top: 100px;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+  margin: 0 auto;
+  font-size: 60px;
+  padding-top: 10px;
+  width: fit-content;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+.passed,
+.failed {
+  display: flex;
+  flex: 0.33;
+  justify-content: space-between;
+  color: white;
+  background-color: rgb(37, 115, 115);
+  max-width: 500px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.failed {
+  position: relative;
+  background-color: crimson;
+}
+
+.span_passed,
+.span_failed {
+  margin-left: 20px;
+  color: black;
+  display: block;
+  width: fit-content;
+  float: inline-start;
+  text-align: start;
+}
+
+.span_numberPassed,
+.span_numberFailed {
+  margin-right: 65px;
+  display: block;
+  width: fit-content;
+  float: inline-end;
+  text-align: end;
+}
+
+nav {
+  text-align: center;
+  height: 60px;
+  background-color: #999;
+}
+
+nav > * {
+  margin-top: 5px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.student {
+  width: 500px;
+  padding-left: 20px;
+  border-style: none;
+}
+
+nav > select:first-child {
+  width: 150px;
+  text-align: center;
+}
+
+nav > .grades {
+  width: 100px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main > div > p {
+  margin: 0;
+  color: black;
+  margin-top: 40px;
+  font-size: 30px;
+}
+main > div {
+  width: 500px;
+  margin: 0;
+  margin-right: 30px;
+}
+
+.failed_div > p {
+  color: crimson;
+}
+.button {
+  position: relative;
+  top: 6px;
+  font-size: 30px;
+  color: rgb(80, 121, 121);
+  border-color: black;
+  font-weight: bold;
+  border-style: none;
+}
+
+.failed {
+  position: relative;
+}
+
+.percentage {
+  position: absolute;
+  background-color: crimson;
+  font-size: 20px;
+  right: 12px;
+  top: 4.5px;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.student_results {
+  color: black;
+  max-width: 500px;
+  font-weight: lighter;
+  font-size: 18px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-top: unset;
+}
+
+.passed_div,
+.failed_div {
+  position: relative;
+}
+
+.student_result > span {
+  position: absolute;
+  right: 0px;
+  color: aqua;
+}
+
+.failed_div > .student_results {
+  color: black;
+}
+.failed_div > .student_results > span {
+  color: crimson;
+}
