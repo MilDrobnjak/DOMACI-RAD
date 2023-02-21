@@ -1,0 +1,124 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+h1,
+input {
+  display: inline !important;
+}
+
+h1 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+input {
+  max-width: 300px;
+}
+
+main {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  background-color: #212529;
+  padding: 20px;
+}
+footer p {
+  color: white;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.card {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.wrapper {
+  max-width: 1150px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.wrapper .card {
+  margin-top: 20px;
+}
+.wrapper .card .card-title {
+  color: blue;
+}
+
+.popular {
+  color: #212529;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.title {
+  cursor: pointer;
+}
+
+.show_details {
+  font-size: 44px;
+  text-align: left !important;
+  font-weight: 700;
+}
+
+.single_movie img {
+  display: block;
+  height: 813px;
+  width: 562.6px;
+  justify-content: flex-start !important;
+}
+.single_movie p {
+  text-align: left;
+}
+
+.season_number {
+  position: absolute;
+  right: 31%;
+  top: 3%;
+  font-weight: 700;
+}
+
+.season_list {
+  position: absolute;
+  right: 28%;
+  top: 8%;
+}
+
+.cast {
+  position: absolute;
+  right: 41%;
+  top: 30%;
+  font-weight: 700;
+}
+
+.character_list {
+  position: absolute;
+  right: 29.5%;
+  top: 35%;
+  text-align: left !important;
+}
+
+nav {
+  height: 10%;
+}
+
+main {
+  height: 80%;
+}/*# sourceMappingURL=bitshow.css.map */
