@@ -341,3 +341,5 @@ function shufflesElementsOfArray(array) {
   return array1;
 }
 console.log(shufflesElementsOfArray([3, 6, 11, 2, 9, 1]));
+
+// Svaka cast. Kako ti se sad ovo cini? Da li je leglo malo?
