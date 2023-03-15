@@ -122,3 +122,6 @@ function swapCaseOfEachCharacter(string) {
 }
 console.log(swapCaseOfEachCharacter("tHE qUICK bROWN fOX"));
 console.log(swapCaseOfEachCharacter("The Quick Brown Fox"));
+
+
+// Koliko ti je trebalo vremena da uradis sve?
